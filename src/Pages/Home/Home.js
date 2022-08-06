@@ -1,5 +1,8 @@
 import React from 'react';
 import Banner from './Banner';
+import Footer from './Footer';
+import Form from './Form';
+
 import Info from './Info';
 import MakeAppointment from './MakeAppointment';
 import Services from './Services';
@@ -16,6 +19,9 @@ export const Home = () => {
         <Treatment></Treatment>
         <MakeAppointment></MakeAppointment>
         <Testimonials></Testimonials>
+        <Form></Form>
+        <Footer></Footer>
+        
     </div>
   );
 };
