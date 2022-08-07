@@ -15,7 +15,7 @@ const MakeAppointment = () => {
                 <div className="flex-1 px-5">
                 <h3 className="text-xl text-white font-bold"> Appointment </h3>
                 <h2 className="text-3xl text-accent py-5">Make an Appointment Today</h2>
-                <p className="text-white">
+                <p className="text-white pb-5">
                 Lorem Ipsum, sometimes referred to as 'lipsum', is the placeholder text used in design when creating content. It helps designers plan out where the content will sit, without needing to wait for the content to be written and approved. It originally comes from a Latin text, but to today's reader, it's seen as gibberish
                 </p>
                 <MainButton>Get Started</MainButton>
