@@ -14,18 +14,18 @@ const BookingModal = ({ date, treatment, setTreatment }) => {
 
         const booking = {
             treatmentId: _id,
-            treatment: name,
+            treatment:name,
             date: formattedDate,
             slot,
             patient: user.email,
-            patientName: user.displayName,
+            patientName:user.displayName,
             phone: event.terget.phone.value
 
         }
 
         fetch('http://localhost:5000/booking', {
             method: 'POST',
-            headers: {
+            headers:{
                 'content-type': 'application/json'
             },
             body: JSON.stringify(booking)
